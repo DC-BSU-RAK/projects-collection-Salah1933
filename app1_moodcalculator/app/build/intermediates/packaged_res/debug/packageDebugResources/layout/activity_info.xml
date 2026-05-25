@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌗 About Mood Calculator"
+            android:textSize="24sp"
+            android:textColor="#E0E0FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Mood Calculator?"
+            android:textSize="18sp"
+            android:textColor="#AAAAFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mood Calculator is a creative non-numeric calculator that lets you combine emotional states using mathematical operators to discover your emotional balance.\n\nInstead of numbers, you press mood emojis. Instead of sums, you get emotional insights."
+            android:textSize="15sp"
+            android:textColor="#CCCCEE"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to use:"
+            android:textSize="18sp"
+            android:textColor="#AAAAFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1️⃣  Tap mood buttons to select how you feel\n\n2️⃣  Add an operator (+, -, ×, ÷) between moods\n\n3️⃣  Press = to receive your emotional reading\n\n4️⃣  Press 💫 for a random cosmic insight\n\n5️⃣  Press AC to clear and start again\n\n6️⃣  Press ⌫ to delete the last entry"
+            android:textSize="15sp"
+            android:textColor="#CCCCEE"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Example:"
+            android:textSize="18sp"
+            android:textColor="#AAAAFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="😊Happy + 🤩Excited = ✨ Amplified Joy!\n\n😢Sad - 😡Angry = 🌱 You're healing...\n\nThis app reflects on your inner emotional world."
+            android:textSize="15sp"
+            android:textColor="#CCCCEE"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Got it! ✓"
+            android:backgroundTint="#3A3A7A"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

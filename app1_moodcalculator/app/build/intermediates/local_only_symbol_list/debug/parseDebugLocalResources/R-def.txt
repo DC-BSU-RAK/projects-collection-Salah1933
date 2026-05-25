@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+id btn1
+id btn10
+id btn11
+id btn12
+id btn13
+id btn14
+id btn15
+id btn16
+id btn2
+id btn3
+id btn4
+id btn5
+id btn6
+id btn7
+id btn8
+id btn9
+id btnClose
+id btnInfo
+id tvDisplay
+layout activity_info
+layout activity_main
+layout activity_splash
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.MoodCalculator

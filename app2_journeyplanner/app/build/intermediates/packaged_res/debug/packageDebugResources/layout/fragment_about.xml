@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1B2A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🧭"
+            android:textSize="64sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Daily Rituals"
+            android:textSize="26sp"
+            android:textColor="#E8F4FD"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Daily Rituals?"
+            android:textSize="18sp"
+            android:textColor="#7EB8D4"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Rituals is a mindful companion app that helps you build meaningful daily habits. Choose your personal journey theme and track six core rituals that support your wellbeing."
+            android:textSize="15sp"
+            android:textColor="#C8E8F8"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to use:"
+            android:textSize="18sp"
+            android:textColor="#7EB8D4"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏠 Home — Your personalised daily greeting and a reflective quote matching your theme.\n\n✅ Rituals — Check off your six daily rituals. Watch your moon phase fill up as you complete each one!\n\n⚙️ Settings — Enter your name, pick a journey theme (Forest, Ocean, Mountain, Desert, or City), and toggle reminders. All saved automatically.\n\n📖 About — This page! App info and instructions."
+            android:textSize="15sp"
+            android:textColor="#C8E8F8"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The 6 Rituals:"
+            android:textSize="18sp"
+            android:textColor="#7EB8D4"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💧 Hydrate   🌬️ Breathe   🚶 Move\n📓 Journal   🙏 Gratitude   🌙 Reflect\n\nSmall, consistent actions compound into meaningful change."
+            android:textSize="15sp"
+            android:textColor="#C8E8F8"
+            android:lineSpacingExtra="6dp"
+            android:gravity="center"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0  •  Daily Rituals App"
+            android:textSize="13sp"
+            android:textColor="#456780"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

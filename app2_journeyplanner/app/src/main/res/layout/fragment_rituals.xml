@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1B2A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧘 Daily Rituals"
+            android:textSize="26sp"
+            android:textColor="#E8F4FD"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌑 0 / 6 rituals complete"
+            android:textSize="16sp"
+            android:textColor="#7EB8D4"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Ritual checkboxes -->
+        <CheckBox android:id="@+id/cbRitual1"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="💧 Drink a full glass of water"
+            android:textColor="#C8E8F8" android:textSize="16sp"
+            android:buttonTint="#7EB8D4"
+            android:padding="12dp" android:layout_marginBottom="8dp"
+            android:background="#112233"/>
+
+        <CheckBox android:id="@+id/cbRitual2"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="🌬️ Take 5 deep breaths"
+            android:textColor="#C8E8F8" android:textSize="16sp"
+            android:buttonTint="#7EB8D4"
+            android:padding="12dp" android:layout_marginBottom="8dp"
+            android:background="#112233"/>
+
+        <CheckBox android:id="@+id/cbRitual3"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="🚶 Move your body for 10 minutes"
+            android:textColor="#C8E8F8" android:textSize="16sp"
+            android:buttonTint="#7EB8D4"
+            android:padding="12dp" android:layout_marginBottom="8dp"
+            android:background="#112233"/>
+
+        <CheckBox android:id="@+id/cbRitual4"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="📓 Write 3 lines in your journal"
+            android:textColor="#C8E8F8" android:textSize="16sp"
+            android:buttonTint="#7EB8D4"
+            android:padding="12dp" android:layout_marginBottom="8dp"
+            android:background="#112233"/>
+
+        <CheckBox android:id="@+id/cbRitual5"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="🙏 Name 3 things you're grateful for"
+            android:textColor="#C8E8F8" android:textSize="16sp"
+            android:buttonTint="#7EB8D4"
+            android:padding="12dp" android:layout_marginBottom="8dp"
+            android:background="#112233"/>
+
+        <CheckBox android:id="@+id/cbRitual6"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="🌙 Reflect on your day before sleep"
+            android:textColor="#C8E8F8" android:textSize="16sp"
+            android:buttonTint="#7EB8D4"
+            android:padding="12dp" android:layout_marginBottom="8dp"
+            android:background="#112233"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your checkboxes are saved automatically ✨"
+            android:textSize="13sp"
+            android:textColor="#456780"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

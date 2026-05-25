@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1B2A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚙️ Preferences"
+            android:textSize="26sp"
+            android:textColor="#E8F4FD"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Name -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOUR NAME"
+            android:textSize="12sp"
+            android:textColor="#7EB8D4"
+            android:textAllCaps="true"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textColorHint="#456780"
+            android:textColor="#E8F4FD"
+            android:background="#112233"
+            android:padding="14dp"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Theme -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JOURNEY THEME"
+            android:textSize="12sp"
+            android:textColor="#7EB8D4"
+            android:textAllCaps="true"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#112233"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton android:id="@+id/rbForest"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="🌲 Forest" android:textColor="#C8E8F8" android:textSize="16sp"
+                android:buttonTint="#7EB8D4" android:padding="10dp"/>
+            <RadioButton android:id="@+id/rbOcean"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="🌊 Ocean" android:textColor="#C8E8F8" android:textSize="16sp"
+                android:buttonTint="#7EB8D4" android:padding="10dp"/>
+            <RadioButton android:id="@+id/rbMountain"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="⛰️ Mountain" android:textColor="#C8E8F8" android:textSize="16sp"
+                android:buttonTint="#7EB8D4" android:padding="10dp"/>
+            <RadioButton android:id="@+id/rbDesert"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="🏜️ Desert" android:textColor="#C8E8F8" android:textSize="16sp"
+                android:buttonTint="#7EB8D4" android:padding="10dp"/>
+            <RadioButton android:id="@+id/rbCity"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="🏙️ City" android:textColor="#C8E8F8" android:textSize="16sp"
+                android:buttonTint="#7EB8D4" android:padding="10dp"/>
+
+        </RadioGroup>
+
+        <!-- Reminders toggle -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#112233"
+            android:padding="14dp"
+            android:layout_marginBottom="32dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🔔 Daily Reminders"
+                android:textColor="#C8E8F8"
+                android:textSize="16sp"/>
+
+            <Switch
+                android:id="@+id/swReminders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:thumbTint="#7EB8D4"
+                android:trackTint="#1A3A5A"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Save Preferences"
+            android:backgroundTint="#1A5A7A"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>

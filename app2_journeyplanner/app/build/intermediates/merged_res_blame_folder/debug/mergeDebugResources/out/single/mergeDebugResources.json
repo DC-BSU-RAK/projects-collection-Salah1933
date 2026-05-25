@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/layout_fragment_preferences.xml.flat",
+        "source": "com.example.journeyplanner.app-main-33:/layout/fragment_preferences.xml"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/layout_activity_splash.xml.flat",
+        "source": "com.example.journeyplanner.app-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/layout_fragment_rituals.xml.flat",
+        "source": "com.example.journeyplanner.app-main-33:/layout/fragment_rituals.xml"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.journeyplanner.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/layout_fragment_home.xml.flat",
+        "source": "com.example.journeyplanner.app-main-33:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/layout_fragment_about.xml.flat",
+        "source": "com.example.journeyplanner.app-main-33:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.journeyplanner.app-main-33:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.journeyplanner.app-debug-31:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.journeyplanner.app-main-33:/mipmap-mdpi/ic_launcher.png"
+    }
+]

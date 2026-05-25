@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daily Rituals</string>
+    <style name="App.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#1A3A5A</item>
+    </style>
+    <style name="Theme.DailyRituals" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1A5A7A</item>
+        <item name="colorPrimaryVariant">#0D1B2A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#0D1B2A</item>
+        <item name="android:statusBarColor">#0D1B2A</item>
+    </style>
+</resources>
